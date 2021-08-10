@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+/* header part start  */
+.top-banner{
+  background:rgb(160, 150, 150);
+  background-position: center;
+   background-repeat: no-repeat;
+
+
+}
+/* header{
+  background: rgba(255, 255, 255, 0);
+} */
+
+.full-nav{
+  margin-top: 2rem;
+}
+.nav-color ul li a{
+  color: rgb(0, 0, 0);
+  padding: 0 2rem;
+  
+}
+
+.me-auto1{
+  margin-left: 30rem;
+
+
+
+}
+.me-auto1 li{
+  margin-right: 4rem;
+}
+
+
+span.head-icon a {
+  color: blue;
+  margin-left: 2rem;
+  text-align: center;
+  padding: .5rem;
+  height: 1rem;
+  width: 1rem;
+
+border: .1rem solid white;
+border-radius: 50%;
+}
+span.head-icon .twit { 
+  color:rgb(23, 119, 143);
+}
+
+
+
+/* header part end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banner part start */
+
+.banner-con-overlay{
+  padding: 17rem 0;
+  color: white;
+  text-align: center;
+}
+.banner-con-overlay h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5.4rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+ .banner-con-overlay p {
+   font-size: 1.3rem;
+   font-family: 'Open Sans', sans-serif;
+ }
+.banner-btn a{
+  padding: 1rem 3rem;
+  color: white;
+   border: .1rem solid #ffffff;
+
+  border-radius: .3rem;
+  margin: 7rem 1rem;
+  
+font-weight: 600;
+transition: all linear .4s;
+}
+.banner-btn a:hover{
+  background-color: #e84545;}
+
+.banner-btn {
+  margin-top: 15rem;
+}
+
+
+
+
+
+
+
+
+/* second part start  */
+
+.sec-banner{
+  text-align: center;
+  background: url(../images/sec\ banner.png);
+  padding:20rem 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec-btn a{
+  background:#0149a1;
+  padding: 1.3rem 4rem;
+  color: white;
+  border-radius: 5rem;
+  
+}
+/* second part end */
+
+
+/* work part start  */
+.work-part{
+  padding: 5rem 0;
+  text-align: center;
+  background: #0149a1;
+}
+
+
+
+.work-cont{
+  padding: 5rem 0;
+}
+.work-cont p{
+  text-align: left;
+  padding: 1rem 6rem 1rem;
+}
+.work-btn a{
+  background:#ffffff;
+  padding: 1.3rem 4rem;
+  color: #0149a1;
+  border-radius: 5rem;
+  font-weight: 600;
+}
+
+.testi-cont{
+  text-align: center;
+}
+/* work part end */
+
+/* testmonial part start */
+.testi-cont{
+ 
+  color: #95a2b2;
+}
+.testii-inner{
+  padding: 5rem 0;
+}
+.testii-inner h4{
+  padding-top: 3rem;
+}
+.testii-inner h4 span{
+ border-bottom: .1rem solid gray;
+}
+.testii-cir{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cir1{
+  height: 2rem;
+  width: 2rem;
+  border: .2rem solid #95a2b2;
+  border-radius: 50%;
+ margin: 0.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cir1 span{
+  position: absolute;
+  height: 1.2rem;
+  width: 1.2rem;
+  border: .1rem solid #95a2b2;
+  border-radius: 50%;
+  background: #95a2b2;
+}
+/* testmonial part end */
+
+/* team part start  */
+.team-part{
+  text-align: center;
+}
+.team-head{
+  padding: 5rem 0 3rem;
+}
+
+.team-head h1{
+  color: #0149a1;
+  font-weight: 600;
+  font-size: 7rem;
+}
+.team-head h3{
+  font-size: 3.6rem;
+
+}
+.team-body{
+  padding: 0 2rem;
+  margin: 2rem 0 10rem;
+}
+.team-img{
+  margin: 3rem;
+}
+.team-cont h3{
+  padding: 1rem;
+  font-size: 3rem;
+}
+.team-btn{
+  padding-bottom: 8rem                                       ;
+}
+.team-btn a{
+  background:#ff2d55;
+  padding: 1.3rem 4rem;
+  color: #ffffff;
+  border-radius: 5rem;
+  font-weight: 600;
+}
+/* team part end */
+
+
+/* footer part start  */
+.foot-part{
+  text-align: left;
+  padding: 7rem 0;
+  background: #0149a1;
+
+}
+.foot-cont li a{
+  color: white;
+}
+.foot-copy p{
+  text-align: center;
+
+  color: white;
+}
+/* footer part end */  
+
+
+
+
+
+
+
