@@ -49,6 +49,19 @@ html {
   
 }
 
+/* sticky-top start  */
+
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  background-color: #61a2f1;
+  z-index: 1020;
+}
+
+/* sticky-top end */
+
 .me-auto1{
   margin-left: 30rem;
 
